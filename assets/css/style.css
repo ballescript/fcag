@@ -15,3 +15,8 @@
     font-size: .9rem;
     line-height: 30px;
 }
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
