@@ -124,8 +124,10 @@ https://templatemo.com/tm-545-finance-business
                     interno, debida diligencia de transacciones, evaluaciones de riesgo financiero, estudios de
                     preinversión, consultoría en desinversiones, fusiones y adquisiciones, aseguramiento y prevención de
                     riegos de fraude.
+                  </p>
 
-                    <!-- Representamos un pilar de apoyo en el fortalecimiento, equilibrio y la identificación de riesgos, su
+                  <p class="hidden-p">
+                    Representamos un pilar de apoyo en el fortalecimiento, equilibrio y la identificación de riesgos, su
                     tratamiento adecuado y su prevención, a fin de construir un ambiente de armonía entre la entidad, su
                     recurso humano, financiero y la interacción con su entorno económico.
 
@@ -134,9 +136,9 @@ https://templatemo.com/tm-545-finance-business
                     gestión de riesgos asociados al desarrollo.
 
                     Somos Contadores y Auditores Certificados, Peritos contables y Financieros con registro, con amplia
-                    experiencia valuación de empresas, activos tangibles e intangibles. -->
+                    experiencia valuación de empresas, activos tangibles e intangibles.
                   </p>
-                  <a href="" class="filled-button">Leer más</a>
+                  <a onclick="showP()" class="filled-button hidden-button">Leer más</a>
                 </div>
               </div>
               <div class="col-md-6">
@@ -206,7 +208,7 @@ https://templatemo.com/tm-545-finance-business
               <br><br>Fusce et venenatis ex. Quisque varius, velit quis dictum sagittis, odio velit molestie nunc, ut
               posuere ante tortor ut neque.
             </p>
-            <a href="" class="filled-button">Leer más</a>
+            <!-- <a href="" class="filled-button">Leer más</a> -->
           </div>
         </div>
         <div class="col-md-6 align-self-center">
@@ -304,7 +306,7 @@ https://templatemo.com/tm-545-finance-business
     <div class="container">
       <div class="row">
         <div class="col-md-3 footer-item">
-          <h4>Firma de Contabilidad Auditoría y Gestión Estratégica</h4>
+          <h4>Firma de Contabilidad y Auditoría</h4>
           <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
           <ul class="social-icons">
             <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -373,7 +375,7 @@ https://templatemo.com/tm-545-finance-business
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p>Copyright &copy; 2022 Firma de Contabilidad Auditoría y Gestión Estratégica</p>
+          <p>Copyright &copy; 2022 Firma de Contabilidad y Auditoría</p>
         </div>
       </div>
     </div>
@@ -399,6 +401,21 @@ https://templatemo.com/tm-545-finance-business
       }
     }
   </script>
+  <script>
+    let showP = () => {
+      document.getElementsByClassName("hidden-p")[0].style.display = "block";
+      document.getElementsByClassName("hidden-button")[0].style.display = "none";
+    }
+  </script>
+  <style>
+    .hidden-p {
+      display: none;
+    }
+
+    .hidden-button {
+      cursor: pointer;
+    }
+  </style>
 
 </body>
 
