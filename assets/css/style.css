@@ -20,3 +20,16 @@
     display: flex;
     align-items: center;
 }
+
+.servicios-p {
+    color: inherit !important;
+}
+
+.servicios-ul {
+    font-size: 14px;
+    list-style: inside !important;
+}
+
+.servicios-ul li {
+    display: list-item !important;
+}
